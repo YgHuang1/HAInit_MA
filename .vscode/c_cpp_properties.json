@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include/",
+                "/usr/local/include/opencv4",
+                "/usr/local/include/openMVG",
+                "/usr/local/include/openMVG_dependencies/cereal/include",
+                "/usr/local/include/openMVG_dependencies/cereal/include/cereal",
+                "/usr/local/include/openMVG/third_party/lemon",
+                "/usr/local/vtk82/include/vtk-8.2",
+                "/usr/include/pcl-1.11",
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
